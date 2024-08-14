@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 3.Develop an HTML form with various input elements. Use CSS to style the form, including setting
+         background colors for input fields. create a custom color palette for the form elements, and demonstrate
+         how to apply opacity to one of the form sections. -->
+         <div class="form-container">
+            <h2 class="form-title">Contact Us</h2>
+            
+            <!-- Form Section with Opacity Applied -->
+            <section class="form-section form-section--personal-info">
+                <h3>Personal Information</h3>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+            </section>
+    
+            <!-- Another Form Section -->
+            <section class="form-section">
+                <h3>Message</h3>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            </section>
+    
+            <!-- Submit Button -->
+            <button type="submit" class="form-submit-button">Send Message</button>
+        </div>
+    
+
+</body>
+</html> 
