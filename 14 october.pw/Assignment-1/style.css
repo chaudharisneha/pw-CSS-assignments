@@ -1,0 +1,30 @@
+nav a{
+    color: green;
+}
+nav > h2{
+    color: red;
+    background-color: beige;
+}
+ul + p {
+    color: red;
+}
+a[href]{
+    color: red; text-decoration: none;
+}
+a[class="active"]{
+    color: darkmagenta;
+    text-decoration: underline;
+}
+a[target="_self"]{
+    background-color: darkturquoise;
+}
+p:last-child::after{
+    content: "...";
+}
+li::maker{
+    color: green;
+}
+p:nth-child(even)::first-letter{
+    color: red;
+    font-size: 40px;
+}
